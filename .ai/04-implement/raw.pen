@@ -1,0 +1,732 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Web Studio Landing",
+      "width": 1440,
+      "fill": "#F5F2ED",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "VKkgO",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#F5F2ED",
+          "padding": [
+            24,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "KvqrR",
+              "name": "logo",
+              "fill": "#2D2A26",
+              "content": "NORD8 STUDIO",
+              "fontFamily": "DM Sans",
+              "fontSize": 24,
+              "fontWeight": "800",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "wPFvu",
+              "name": "nav",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TK0pe",
+                  "name": "nav1",
+                  "fill": "#5C5852",
+                  "content": "Услуги",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "LwYM7",
+                  "name": "nav2",
+                  "fill": "#5C5852",
+                  "content": "Кейсы",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "UJnmY",
+                  "name": "nav3",
+                  "fill": "#5C5852",
+                  "content": "Контакты",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "e5TOm",
+              "name": "ctaTop",
+              "fill": "#C4634E",
+              "stroke": {
+                "thickness": 3,
+                "fill": "#2D2A26"
+              },
+              "padding": [
+                10,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a0gWE",
+                  "name": "ctaTopTxt",
+                  "fill": "#F5F2ED",
+                  "content": "Обсудить проект",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "htoDw",
+          "name": "Hero",
+          "width": "fill_container",
+          "gap": 40,
+          "padding": [
+            48,
+            80,
+            64,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "dYosN",
+              "name": "heroLeft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RYAmK",
+                  "name": "badge",
+                  "fill": "#8C8780",
+                  "content": "ВЕБ-СТУДИЯ ПОД КЛЮЧ",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "HoCAY",
+                  "name": "heroTitle",
+                  "fill": "#2D2A26",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Сайты, боты и автоматизация, которые приносят заявки",
+                  "lineHeight": 0.92,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 62,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "xmMFj",
+                  "name": "heroSub",
+                  "fill": "#5C5852",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Запускаем цифровую систему продаж за 2-4 недели: лендинг или сайт, Telegram-бот и сценарии автоматизации в CRM.",
+                  "lineHeight": 1.35,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 20,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "a6eky",
+                  "name": "heroBtns",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jhj2W",
+                      "name": "btn1",
+                      "fill": "#C4634E",
+                      "stroke": {
+                        "thickness": 3,
+                        "fill": "#2D2A26"
+                      },
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Nk67Z",
+                          "name": "btn1Txt",
+                          "fill": "#F5F2ED",
+                          "content": "Получить аудит",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yG1zK",
+                      "name": "btn2",
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "thickness": 3,
+                        "fill": "#2D2A26"
+                      },
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "2WEIZ",
+                          "name": "btn2Txt",
+                          "fill": "#2D2A26",
+                          "content": "Посмотреть кейсы",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zsRZB",
+              "name": "heroVisual",
+              "width": 520,
+              "height": 360,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 140,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#C4634E",
+                    "position": 0
+                  },
+                  {
+                    "color": "#7A9B76",
+                    "position": 1
+                  }
+                ]
+              },
+              "stroke": {
+                "thickness": 3,
+                "fill": "#2D2A26"
+              },
+              "layout": "vertical",
+              "padding": 24,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lwZJK",
+                  "name": "metricCard",
+                  "width": 220,
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "thickness": 3,
+                    "fill": "#2D2A26"
+                  },
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fMoPP",
+                      "name": "metricNum",
+                      "fill": "#2D2A26",
+                      "content": "+47%",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 42,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AkMGT",
+                      "name": "metricTxt",
+                      "fill": "#5C5852",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "рост конверсии после запуска",
+                      "lineHeight": 1.3,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fYeaY",
+          "name": "Services",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": 3,
+            "fill": "#2D2A26"
+          },
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            36,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "OqiZQ",
+              "name": "servicesTitle",
+              "fill": "#2D2A26",
+              "content": "Что мы делаем",
+              "fontFamily": "DM Sans",
+              "fontSize": 40,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "C4WjV",
+              "name": "servicesRow",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HpF31",
+                  "name": "card1",
+                  "width": "fill_container",
+                  "fill": "#F5F2ED",
+                  "stroke": {
+                    "thickness": 3,
+                    "fill": "#2D2A26"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1UQm2",
+                      "name": "card1T",
+                      "fill": "#2D2A26",
+                      "content": "Сайты",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fNMPC",
+                      "name": "card1D",
+                      "fill": "#5C5852",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Лендинги и многостраничные сайты с четкой структурой под продажи.",
+                      "lineHeight": 1.35,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uVwbB",
+                  "name": "card2",
+                  "width": "fill_container",
+                  "fill": "#F5F2ED",
+                  "stroke": {
+                    "thickness": 3,
+                    "fill": "#2D2A26"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "F7ohr",
+                      "name": "card2T",
+                      "fill": "#2D2A26",
+                      "content": "Боты",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GyCtt",
+                      "name": "card2D",
+                      "fill": "#5C5852",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Telegram-боты для квалификации лидов, записи и поддержки клиентов 24/7.",
+                      "lineHeight": 1.35,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "phZys",
+                  "name": "card3",
+                  "width": "fill_container",
+                  "fill": "#F5F2ED",
+                  "stroke": {
+                    "thickness": 3,
+                    "fill": "#2D2A26"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MGbDW",
+                      "name": "card3T",
+                      "fill": "#2D2A26",
+                      "content": "Автоматизация",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qrYzF",
+                      "name": "card3D",
+                      "fill": "#5C5852",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Связываем сайт, бота и CRM в одну систему: меньше рутины, больше сделок.",
+                      "lineHeight": 1.35,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kuQwT",
+          "name": "Process",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "9ZTyB",
+              "name": "processTitle",
+              "fill": "#2D2A26",
+              "content": "Как мы запускаем проект",
+              "fontFamily": "DM Sans",
+              "fontSize": 36,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "nVMiI",
+              "name": "step1",
+              "fill": "#C4634E",
+              "content": "01 Бриф и аудит воронки",
+              "fontFamily": "DM Sans",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "n2Kwt",
+              "name": "step2",
+              "fill": "#2D2A26",
+              "content": "02 Прототип, дизайн и тексты",
+              "fontFamily": "DM Sans",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "uktrW",
+              "name": "step3",
+              "fill": "#2D2A26",
+              "content": "03 Разработка, интеграции и запуск",
+              "fontFamily": "DM Sans",
+              "fontSize": 18,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BC6X7",
+          "name": "Cases",
+          "width": "fill_container",
+          "fill": "#2D2A26",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            36,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "eakt4",
+              "name": "casesTitle",
+              "fill": "#F5F2ED",
+              "content": "Результаты клиентов",
+              "fontFamily": "DM Sans",
+              "fontSize": 36,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "20EXG",
+              "name": "casesRow",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hsILS",
+                  "name": "caseA",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "thickness": 3,
+                    "fill": "#2D2A26"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FFWbH",
+                      "name": "caseAT",
+                      "fill": "#2D2A26",
+                      "content": "Производство мебели",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VT9Mm",
+                      "name": "caseAD",
+                      "fill": "#5C5852",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "x2.1 заявок за 30 дней после запуска сайта и квиз-бота",
+                      "lineHeight": 1.35,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XwncY",
+                  "name": "caseB",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "thickness": 3,
+                    "fill": "#2D2A26"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rDEbJ",
+                      "name": "caseBT",
+                      "fill": "#2D2A26",
+                      "content": "Онлайн-школа",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "162eR",
+                      "name": "caseBD",
+                      "fill": "#5C5852",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "-34% ручных операций после внедрения Telegram-бота и автоворонок",
+                      "lineHeight": 1.35,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5aJvg",
+          "name": "Final CTA",
+          "width": "fill_container",
+          "fill": "#C4634E",
+          "stroke": {
+            "thickness": 3,
+            "fill": "#2D2A26"
+          },
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            52,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Qxc72",
+              "name": "finalTitle",
+              "fill": "#F5F2ED",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Готовы собрать систему роста для вашего бизнеса?",
+              "lineHeight": 0.95,
+              "fontFamily": "DM Sans",
+              "fontSize": 44,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "f9Guc",
+              "name": "finalSub",
+              "fill": "#F5F2ED",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Оставьте заявку и получите бесплатный аудит текущей воронки: где теряются лиды и как вернуть их в продажи.",
+              "lineHeight": 1.35,
+              "fontFamily": "DM Sans",
+              "fontSize": 18,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "Gupfs",
+              "name": "finalBtn",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "thickness": 3,
+                "fill": "#2D2A26"
+              },
+              "padding": [
+                12,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ccnqM",
+                  "name": "finalBtnTxt",
+                  "fill": "#2D2A26",
+                  "content": "Запросить аудит",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QIX6D",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#F5F2ED",
+          "padding": [
+            24,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "vqE2V",
+              "name": "footLeft",
+              "fill": "#2D2A26",
+              "content": "NORD8 STUDIO",
+              "fontFamily": "DM Sans",
+              "fontSize": 18,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "GvE6F",
+              "name": "footRight",
+              "fill": "#8C8780",
+              "content": "© 2026. Сайты, боты, автоматизация",
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
