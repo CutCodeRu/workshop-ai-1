@@ -1,0 +1,12 @@
+# Runtime dependencies for the Telegram secretary bot project
+aiogram
+openai
+asyncpg
+psycopg[binary]
+sqlalchemy
+alembic
+pgvector
+pydantic
+pydantic-settings
+python-dotenv
+structlog
